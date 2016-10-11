@@ -1,0 +1,599 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Query Tools | Modelizr</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.5.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-anchors/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+        <link rel="stylesheet" href="../../docs/styles/website.css">
+    
+
+        
+    
+    
+    <link rel="next" href="../../docs/api/Mocks.html" />
+    
+    
+    <link rel="prev" href="../../docs/api/Models.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="5.4" data-chapter-title="Query Tools" data-filepath="docs/api/QueryTools.md" data-basepath="../.." data-revision="Wed Oct 12 2016 00:44:33 GMT+0200 (SAST)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Read Me
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="docs/Introduction.html">
+            
+                
+                    <a href="../../docs/Introduction.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="docs/usage/index.html">
+            
+                
+                    <a href="../../docs/usage/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Usage
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="docs/usage/Models.html">
+            
+                
+                    <a href="../../docs/usage/Models.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Creating Models
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="docs/usage/Querying.html">
+            
+                
+                    <a href="../../docs/usage/Querying.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Querying
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="docs/usage/Mocking.html">
+            
+                
+                    <a href="../../docs/usage/Mocking.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Mocking
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="docs/usage/Preparing.html">
+            
+                
+                    <a href="../../docs/usage/Preparing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Query Preparation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="docs/usage/Production.html">
+            
+                
+                    <a href="../../docs/usage/Production.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        Production
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="docs/usage/Validation.html">
+            
+            <span><b>2.6.</b> Validation</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="docs/patterns/index.html">
+            
+                
+                    <a href="../../docs/patterns/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Patterns
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="docs/patterns/Fragments.html">
+            
+                
+                    <a href="../../docs/patterns/Fragments.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Fragments
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="docs/modifiers/index.html">
+            
+                
+                    <a href="../../docs/modifiers/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Modifiers
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="docs/modifiers/ModelModifiers.html">
+            
+                
+                    <a href="../../docs/modifiers/ModelModifiers.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Model Modifiers
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="docs/modifiers/QueryModifiers.html">
+            
+                
+                    <a href="../../docs/modifiers/QueryModifiers.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Query Modifiers
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="docs/api/index.html">
+            
+                
+                    <a href="../../docs/api/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        API Reference
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="docs/api/ModelCreator.html">
+            
+                
+                    <a href="../../docs/api/ModelCreator.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        Model Creator
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="docs/api/UnionCreator.html">
+            
+                
+                    <a href="../../docs/api/UnionCreator.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        Union Creator
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="docs/api/Models.html">
+            
+                
+                    <a href="../../docs/api/Models.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        Models
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.4" data-path="docs/api/QueryTools.html">
+            
+                
+                    <a href="../../docs/api/QueryTools.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                        Query Tools
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="docs/api/Mocks.html">
+            
+                
+                    <a href="../../docs/api/Mocks.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.5.</b>
+                        
+                        Mocks
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="docs/api/Normalizr.html">
+            
+                
+                    <a href="../../docs/api/Normalizr.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.</b>
+                        
+                        Normalizr
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="docs/api/FetchAPI.html">
+            
+                
+                    <a href="../../docs/api/FetchAPI.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.</b>
+                        
+                        Fetch API
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="docs/Todo.html">
+            
+                
+                    <a href="../../docs/Todo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Todo
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="changelog.html">
+            
+                
+                    <a href="../../changelog.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Changelog
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../" >Modelizr</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="query-tools">Query Tools</h1>
+<h3 id="querymodels"><code>query(...models)</code></h3>
+<p>Generate a GraphQL query</p>
+<pre><code class="lang-javascript"><span class="token function">query</span><span class="token punctuation">(</span>
+    <span class="token function">user</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token function">book</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+</code></pre>
+<h3 id="mutationmodels"><code>mutation(...models)</code></h3>
+<p>Generate a GraphQL mutation</p>
+<pre><code class="lang-javascript"><span class="token function">mutation</span><span class="token punctuation">(</span>
+    <span class="token function">user</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    <span class="token function">book</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+</code></pre>
+<h3 id="requestmodels"><code>request(...models)</code></h3>
+<p>Create a non-graphql request where the response is expected to match the given models. Uses the <code>.body()</code> modifier to specify the request body</p>
+<pre><code class="lang-javascript"><span class="token function">request</span><span class="token punctuation">(</span>
+    <span class="token function">user</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">body</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">normalize</span><span class="token punctuation">(</span>res <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="preparemodifiers"><code>prepare(modifiers)</code></h3>
+<p>A utility method that allows you to apply modifiers to all three of the above query tools. <code>prepare</code> accepts a collection of custom modifiers that will get added to each
+query tools&apos; list of modifiers.</p>
+<h6 id="custom-modifiers"><code>custom modifiers</code></h6>
+<p>Each modifier should be a nested function. The root function gets given two parameters:</p>
+<ul>
+<li><code>apply(key, value)</code> - This method sets the field <code>key</code> on the query tool to the value of <code>value</code> and then returns the modified query tool.</li>
+<li><code>valueOf(key)</code> - Returns the value of the field <code>key</code> on the query tool.</li>
+</ul>
+<p>The child function becomes the modifier. It accepts whatever is passed to it when called on a query tool. This function must return the result of <code>apply()</code></p>
+<p>Here is a visual example of the above described pattern.</p>
+<pre><code class="lang-javascript"><span class="token punctuation">{</span>
+    customModifier<span class="token punctuation">:</span> <span class="token punctuation">(</span>apply<span class="token punctuation">,</span> valueOf<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> val <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">apply</span><span class="token punctuation">(</span><span class="token string">&apos;key&apos;</span><span class="token punctuation">,</span> val<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h6 id="prepareget"><code>prepare.get()</code></h6>
+<p>Returns an object containing the three query tools</p>
+<pre><code class="lang-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> prepare <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;modelizr&apos;</span>
+
+<span class="token keyword">const</span> <span class="token punctuation">{</span> query<span class="token punctuation">,</span> mutation<span class="token punctuation">,</span> request <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">prepare</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    customModifier<span class="token punctuation">:</span> <span class="token punctuation">(</span>apply<span class="token punctuation">,</span> valueOf<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> someValue <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">apply</span><span class="token punctuation">(</span><span class="token string">&apos;someKey&apos;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token string">&apos;someKey&apos;</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>someValue<span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">headers</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">path</span><span class="token punctuation">(</span><span class="token string">&quot;http:// ... &quot;</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">mockConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        quantity<span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+        delay<span class="token punctuation">:</span> <span class="token number">300</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token function">query</span><span class="token punctuation">(</span>
+    <span class="token function">user</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">customModifier</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">)</span>
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../docs/api/Models.html" class="navigation navigation-prev " aria-label="Previous page: Models"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../docs/api/Mocks.html" class="navigation navigation-next " aria-label="Next page: Mocks"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../gitbook/app.js"></script>
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-editlink/plugin.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-ga/plugin.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"editlink":{"base":"https://github.com/julienvincent/modelizr/tree/master","label":"edit","multilingual":false},"github":{"url":"https://github.com/julienvincent/modelizr"},"ga":{"token":"UA-53097839-2","configuration":"auto"},"prism":{},"anchors":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

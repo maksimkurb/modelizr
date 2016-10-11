@@ -1,0 +1,612 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Creating Models | Modelizr</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.5.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-anchors/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+        <link rel="stylesheet" href="../../docs/styles/website.css">
+    
+
+        
+    
+    
+    <link rel="next" href="../../docs/usage/Querying.html" />
+    
+    
+    <link rel="prev" href="../../docs/usage/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="2.1" data-chapter-title="Creating Models" data-filepath="docs/usage/Models.md" data-basepath="../.." data-revision="Wed Oct 12 2016 00:44:33 GMT+0200 (SAST)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Read Me
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="docs/Introduction.html">
+            
+                
+                    <a href="../../docs/Introduction.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="docs/usage/index.html">
+            
+                
+                    <a href="../../docs/usage/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Usage
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1" data-path="docs/usage/Models.html">
+            
+                
+                    <a href="../../docs/usage/Models.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Creating Models
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="docs/usage/Querying.html">
+            
+                
+                    <a href="../../docs/usage/Querying.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Querying
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="docs/usage/Mocking.html">
+            
+                
+                    <a href="../../docs/usage/Mocking.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Mocking
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="docs/usage/Preparing.html">
+            
+                
+                    <a href="../../docs/usage/Preparing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Query Preparation
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="docs/usage/Production.html">
+            
+                
+                    <a href="../../docs/usage/Production.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        Production
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="docs/usage/Validation.html">
+            
+            <span><b>2.6.</b> Validation</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="docs/patterns/index.html">
+            
+                
+                    <a href="../../docs/patterns/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Patterns
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="docs/patterns/Fragments.html">
+            
+                
+                    <a href="../../docs/patterns/Fragments.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Fragments
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="docs/modifiers/index.html">
+            
+                
+                    <a href="../../docs/modifiers/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Modifiers
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="docs/modifiers/ModelModifiers.html">
+            
+                
+                    <a href="../../docs/modifiers/ModelModifiers.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        Model Modifiers
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="docs/modifiers/QueryModifiers.html">
+            
+                
+                    <a href="../../docs/modifiers/QueryModifiers.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        Query Modifiers
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="docs/api/index.html">
+            
+                
+                    <a href="../../docs/api/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        API Reference
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="docs/api/ModelCreator.html">
+            
+                
+                    <a href="../../docs/api/ModelCreator.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        Model Creator
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="docs/api/UnionCreator.html">
+            
+                
+                    <a href="../../docs/api/UnionCreator.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        Union Creator
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="docs/api/Models.html">
+            
+                
+                    <a href="../../docs/api/Models.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        Models
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" data-path="docs/api/QueryTools.html">
+            
+                
+                    <a href="../../docs/api/QueryTools.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                        Query Tools
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" data-path="docs/api/Mocks.html">
+            
+                
+                    <a href="../../docs/api/Mocks.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.5.</b>
+                        
+                        Mocks
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" data-path="docs/api/Normalizr.html">
+            
+                
+                    <a href="../../docs/api/Normalizr.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.</b>
+                        
+                        Normalizr
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.7" data-path="docs/api/FetchAPI.html">
+            
+                
+                    <a href="../../docs/api/FetchAPI.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.</b>
+                        
+                        Fetch API
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="docs/Todo.html">
+            
+                
+                    <a href="../../docs/Todo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Todo
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="changelog.html">
+            
+                
+                    <a href="../../changelog.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Changelog
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../" >Modelizr</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="creating-models">Creating Models</h1>
+<p>Modelizr is a tool that revolves around the models you create. Generated queries, mocked data and normalizing are all based on of the structure of the models
+that you define. The models are a mix between json-schema-faker schemas and normalizr schemas.</p>
+<p>When defining normalizr schemas, normalizr provides you with three tools - <code>arrayOf()</code>, <code>valuesOf()</code> and <code>unionOf</code> - to help describe your data structure. Modelizr
+exports similar tools <strong>but they are not the same</strong>. Do not attempt to use normalizr&apos;s tools when working with modelizr models. Additionally, modelizrs&apos; version of <code>unionOf()</code>
+(called <code>union</code>) should be used in a similar manner to <code>models</code> - but more on that later.</p>
+<p>Going forward with this usage example, we will be creating three models - <strong>user</strong>, <strong>group</strong> and <strong>book</strong> - and a union model - <strong>owner</strong>. Each model will get a key to describe
+its entity collection, and a schema to describe the structure of the model.</p>
+<pre><code class="lang-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> model<span class="token punctuation">,</span> union <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;modelizr&apos;</span>
+
+<span class="token keyword">const</span> user <span class="token operator">=</span> <span class="token function">model</span><span class="token punctuation">(</span><span class="token string">&apos;users&apos;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    id<span class="token punctuation">:</span> <span class="token punctuation">{</span>type<span class="token punctuation">:</span> <span class="token string">&quot;primary&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    firstName<span class="token punctuation">:</span> <span class="token punctuation">{</span>type<span class="token punctuation">:</span> <span class="token string">&quot;string&quot;</span><span class="token punctuation">,</span> faker<span class="token punctuation">:</span> <span class="token string">&quot;name.firstName&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    lastName<span class="token punctuation">:</span> <span class="token punctuation">{</span>type<span class="token punctuation">:</span> <span class="token string">&quot;string&quot;</span><span class="token punctuation">,</span> faker<span class="token punctuation">:</span> <span class="token string">&quot;name.lastName&quot;</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> book <span class="token operator">=</span> <span class="token function">model</span><span class="token punctuation">(</span><span class="token string">&apos;books&apos;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    id<span class="token punctuation">:</span> <span class="token punctuation">{</span>type<span class="token punctuation">:</span> <span class="token string">&quot;primary&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    title<span class="token punctuation">:</span> <span class="token punctuation">{</span>type<span class="token punctuation">:</span> <span class="token string">&quot;string&quot;</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+    publisher<span class="token punctuation">:</span> <span class="token punctuation">{</span>type<span class="token punctuation">:</span> <span class="token string">&quot;string&quot;</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token keyword">const</span> group <span class="token operator">=</span> <span class="token function">model</span><span class="token punctuation">(</span><span class="token string">&apos;groups&apos;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    id<span class="token punctuation">:</span> <span class="token punctuation">{</span>type<span class="token punctuation">:</span> <span class="token string">&quot;primary&quot;</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>These are basic model representations. Look at the <a href="../api/ModelCreator.html">API reference</a> to see what else can be done with schemas.</p>
+<p>We can now further describe the relationship between these two models. A <strong>user</strong> might own a collection of books, which would result in an array of the <strong>book</strong> model.</p>
+<pre><code class="lang-javascript"><span class="token keyword">import</span> <span class="token punctuation">{</span> arrayOf <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&apos;modelizr&apos;</span>
+
+user<span class="token punctuation">.</span><span class="token function">define</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    books<span class="token punctuation">:</span> <span class="token function">arrayOf</span><span class="token punctuation">(</span>book<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>Or as a shorthand for <code>arrayOf</code> we can wrap the model in <code>[]</code>.</p>
+<pre><code class="lang-javascript">user<span class="token punctuation">.</span><span class="token function">define</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    books<span class="token punctuation">:</span> <span class="token punctuation">[</span>book<span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>A <strong>book</strong> might have an author, which would result in a single <strong>user</strong> model. We can define this like so:</p>
+<pre><code class="lang-javascript">book<span class="token punctuation">.</span><span class="token function">define</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    author<span class="token punctuation">:</span> user
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>A <strong>group</strong> will just have a collection of users. In other words, an <code>arrayOf(user)</code></p>
+<pre><code class="lang-javascript">group<span class="token punctuation">.</span><span class="token function">define</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    users<span class="token punctuation">:</span> <span class="token punctuation">[</span>user<span class="token punctuation">]</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>And finally our <strong>owner</strong> union will be a collection of users and groups. The union needs to have a <code>schemaAttribute</code> specified to allow normalizr to determine which entity belongs
+to which model.</p>
+<pre><code class="lang-javascript"><span class="token keyword">const</span> owner <span class="token operator">=</span> <span class="token function">union</span><span class="token punctuation">(</span><span class="token string">&apos;owners&apos;</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    user<span class="token punctuation">,</span>
+    group
+<span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>schemaAttribute<span class="token punctuation">:</span> <span class="token string">&apos;type&apos;</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>If we had a set of data with the following structure:</p>
+<pre><code class="lang-javascript"><span class="token punctuation">{</span>
+    owners<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            id<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+            <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">,</span>
+            type<span class="token punctuation">:</span> <span class="token string">&quot;user&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+        <span class="token punctuation">{</span>
+            id<span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+            users<span class="token punctuation">:</span> <span class="token punctuation">[</span> <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token punctuation">]</span><span class="token punctuation">,</span>
+            type<span class="token punctuation">:</span> <span class="token string">&quot;group&quot;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>The <code>schemaAttribute</code> we defined on the <strong>collection</strong> union would allow normalizr to figure out the model by looking at each entities <code>type</code> field.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../../docs/usage/index.html" class="navigation navigation-prev " aria-label="Previous page: Usage"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../../docs/usage/Querying.html" class="navigation navigation-next " aria-label="Next page: Querying"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../../gitbook/app.js"></script>
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-editlink/plugin.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-ga/plugin.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"editlink":{"base":"https://github.com/julienvincent/modelizr/tree/master","label":"edit","multilingual":false},"github":{"url":"https://github.com/julienvincent/modelizr"},"ga":{"token":"UA-53097839-2","configuration":"auto"},"prism":{},"anchors":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
